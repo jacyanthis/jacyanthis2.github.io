@@ -32,6 +32,12 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo-data"
 end
 
+gem "jekyll", "3.9.0"
+gem "jekyll-paginate"
+gem "jekyll-gist"
+gem "jekyll-redirect-from"
+gem "kramdown-parser-gfm"
+# gem "webrick"
 gem "webrick", "~> 1.7"
 
 end
